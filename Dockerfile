@@ -1,8 +1,8 @@
 # Use the official Python image from the Docker Hub
-FROM python:3.9-slim
+FROM python:3.9
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /cw_lista_nr_2
 
 # Copy the requirements file into the container
 COPY requirements.txt requirements.txt
