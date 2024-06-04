@@ -75,6 +75,8 @@ pytest
    ```
 
    The application will be accessible at `http://localhost:5000`.
+![image](https://github.com/Shift-Happens/cw_lista_nr_2/assets/90008035/47b633a3-9b02-4705-ba55-8febf2c770bc)
+
 
 ## Continuous Integration and Deployment
 
