@@ -22,7 +22,7 @@ This project is a simple Flask application that displays "Hello, World!" on the 
 ├── Dockerfile              # Docker configuration file
 ├── requirements.txt        # Python dependencies
 ├── tests
-│   └── test_app.py         # Unit tests
+    └── test_app.py         # Unit tests
 ```
 
 ## Getting Started
@@ -37,7 +37,7 @@ This project is a simple Flask application that displays "Hello, World!" on the 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Shift_Happens/cw_lista_nr_2.git
-   cd flask-app
+   cd cw_lista_nr_2
    ```
 
 2. **Create a virtual environment and install dependencies:**
@@ -66,12 +66,12 @@ pytest
 
 1. **Build the Docker image:**
    ```bash
-   docker build -t flask-app .
+   docker build -t cw_lista_nr_2 .
    ```
 
 2. **Run the Docker container:**
    ```bash
-   docker run -p 5000:5000 flask-app
+   docker run -p 5000:5000 cw_lista_nr_2
    ```
 
    The application will be accessible at `http://localhost:5000`.
@@ -84,10 +84,6 @@ This project uses GitHub Actions for CI/CD. The workflow configuration file (`.g
 - Setting up Python.
 - Installing dependencies.
 - Running tests.
-
-## Screenshot
-
-![Flask App Screenshot](./screenshot.png)
 
 ## Useful Resources
 
