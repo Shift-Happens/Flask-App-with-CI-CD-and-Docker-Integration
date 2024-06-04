@@ -36,7 +36,7 @@ This project is a simple Flask application that displays "Hello, World!" on the 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/flask-app.git
+   git clone https://github.com/Shift_Happens/cw_lista_nr_2.git
    cd flask-app
    ```
 
