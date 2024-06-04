@@ -21,7 +21,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: Add project root to PYTHONPATH
-      run: echo "::add-path::$(pwd)"
+      run: |
+        echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
 
     - name: Run tests
       run: |
